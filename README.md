@@ -1,8 +1,8 @@
-Description of Types-of-Functions-ETH-AVAX
+## Description of Types-of-Functions-ETH-AVAX
 
 This document presents a straightforward ERC20 token smart contract named MyToken, implemented in Solidity. The contract facilitates token minting, burning, and transferring functionalities, inheriting from the OpenZeppelin ERC20 contract.
 
-Prerequisites
+## Prerequisites
 
 Solidity compiler version 0.8.25
 OpenZeppelin contracts library
@@ -21,8 +21,8 @@ onlyOwner: A modifier limiting access to specific functions to the contract owne
 mint: Functionality to generate new tokens, accessible solely by the contract owner.
 burn: Functionality to eradicate tokens.
 transfer: An overridden ERC20 function enabling token transfers between addresses.
-Authored by
+## Authored by
 Sean Ydnar A. Abellanosa
 
-Licensing
+## Licensing
 This project is governed by the MIT License - refer to the LICENSE.md file for specifics.
